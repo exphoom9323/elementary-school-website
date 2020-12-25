@@ -286,11 +286,6 @@ CREATE TABLE `profiles` (
 --
 -- Dumping data for table `profiles`
 --
-
-INSERT INTO `profiles` (`id`, `user_id`, `birthday`, `race`, `nationality`, `cult`, `disease`, `HomeID`, `moo`, `village`, `road`, `parish`, `district`, `province`, `zipcode`, `father`, `father_tel`, `father_job`, `mother`, `mother_tel`, `mother_job`, `guardian`, `guardian_tel`, `guardian_job`, `created_at`, `updated_at`) VALUES
-(1, '2', '11', '2', 'r', 'พุทธ', 'r', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2020-05-20 15:59:04', '2020-05-20 15:59:04'),
-(2, '3', '11', '2', 'r', 'พุทธ', '14', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2020-05-20 15:59:43', '2020-05-20 15:59:43');
-
 -- --------------------------------------------------------
 
 --
@@ -467,9 +462,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `studentcode`, `idcard`, `studentyear`, `type`, `titlename`, `firstname`, `lastname`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 1, '1', NULL, 'admin', 'นาย', '1', '1', '$2y$10$XEHWwEXN0OHB/s1BwUY7jeDYY3OQAhX35izbF0YWp3AYJEGGOtkfW', NULL, '2020-05-20 15:57:04', '2020-05-20 15:57:04'),
-(2, 6000, '1111111111111', 'k1', 'student', 'เด็กชาย', '2', '11', '$2y$10$k2jN0cJcfxDlIhX6Q6qkLOMkzMEg8foYNiDdf7THE069kzMmVMRUK', NULL, '2020-05-20 15:59:04', '2020-05-20 15:59:04'),
-(3, 5909, '1', 'k2', 'student', 'เด็กหญิง', '14', '14', '$2y$10$gGpgtggchLx5tpah79Dyfe0JVQrtgLWFi2iJ.d3gV9J9azKsx0.Qy', NULL, '2020-05-20 15:59:43', '2020-05-20 15:59:43');
+(1, 1, '1', NULL, 'admin', 'นาย', '1', '1', '$2y$10$XEHWwEXN0OHB/s1BwUY7jeDYY3OQAhX35izbF0YWp3AYJEGGOtkfW', NULL, '2020-05-20 15:57:04', '2020-05-20 15:57:04');
 
 -- --------------------------------------------------------
 
