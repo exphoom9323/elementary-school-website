@@ -128,7 +128,7 @@
 			<div class="container">
 				<div class="row d-flex align-items-center justify-content-center">
 					<div class="about-content col-lg-12">
-					<img src="{{asset('img/logo-removebg-preview.png')}}" width="350"  height="350" alt="" title="" />
+					<img src="{{asset('img/b1.jpg')}}" width="350"  height="350" alt="" title="" />
 					</div>
 				</div>
 			</div>

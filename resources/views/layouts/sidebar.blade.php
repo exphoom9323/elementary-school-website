@@ -11,11 +11,11 @@
 							</div>
 							<div class="single-sidebar-widget user-info-widget ">
 								<div class="post-category-widget">
-									<h4 class="category-title">ผู้อำนวยการโรงเรียนบ้านทุ่งกระเชาะ</h4><br><br>
+									<h4 class="category-title">ผู้อำนวยการโรงเรียน</h4><br><br>
 								</div>
-								<img src="{{asset('img/blog/user-info.jpg')}}" alt="">
+								<img src="{{asset('img/blog/user-info2.png')}}" alt="">
 								<a>
-									<h4>นายมานพ ธาราดรุณีกุล</h4>
+									<h4>ชื่อ ผอ. </h4>
 								</a>
 
 
